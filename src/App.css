@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bbbbbb;
+}
+
+.header h1 {
+  padding: 30px;
+}
+
+.todo-container {
+  padding: 100px;
+  margin: auto;
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-left: 0.5rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.todo-item-description {
+  overflow-x: auto;
+}
+
+@media (min-width: 700px) {
+  .todo-container {
+    width: 70%;
+  }
+}
